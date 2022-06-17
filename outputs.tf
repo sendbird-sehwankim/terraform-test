@@ -1,3 +1,3 @@
 output "requirements_file" {
-    value = "${path.module}/requirements.txt}"
+    value = file("${path.module}/requirements.txt")
 }
